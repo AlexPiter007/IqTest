@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.iqtest001">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Вопросы на логику"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".iqa"
+            android:label="@string/result"
+            android:noHistory="true"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".iq23"
+            android:label="@string/v23"
+            android:noHistory="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".iq22"
+            android:label="@string/v22"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".iq21"
+            android:label="@string/v21"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".iq20"
+            android:label="@string/v20"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".iq19"
+            android:label="@string/v19"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".iq18"
+            android:label="@string/v18"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".iq17"
+            android:label="@string/v17"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".iq16"
+            android:label="@string/v16"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".iq15"
+            android:label="@string/v15"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".iq14"
+            android:label="@string/v14"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".iq13"
+            android:label="@string/v13"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".iq12"
+            android:label="@string/v12"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".iq11"
+            android:label="@string/v11"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".iq10"
+            android:label="@string/v10"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".iq9"
+            android:label="@string/v9"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".iq8"
+            android:label="@string/v8"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".iq7"
+            android:label="@string/v7"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".iq6"
+            android:label="@string/v6"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".iq5"
+            android:label="@string/v5"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".iq4"
+            android:label="@string/v4"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".iq3"
+            android:label="@string/v3"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".iq2"
+            android:label="@string/v2"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main"
+            android:label="@string/v1"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

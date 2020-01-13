@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4B3FF03"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarStyle="outsideInset"
+    android:scrollbars="vertical"
+    android:showDividers="beginning"
+    tools:context=".main">
+
+    <TextView
+        android:id="@+id/iq1text"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="@string/iq1q"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#F7030303"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="serif"
+        android:background="#F50057"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="30dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/iq2aA"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="8dp"
+
+                android:layout_marginEnd="8dp"
+                android:background="#2979FF"
+                android:onClick="iq1aA"
+                android:padding="5dp"
+                android:text="@string/iq1aa"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#F7030303"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="serif" />
+
+            <TextView
+                android:id="@+id/iq1aB"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="8dp"
+
+                android:layout_marginEnd="8dp"
+                android:background="#2979FF"
+                android:onClick="iq1aB"
+                android:padding="5dp"
+                android:text="@string/iq1ab"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#F7030303"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="serif" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/iq1aC"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="#2979FF"
+                android:onClick="iq1aC"
+                android:padding="5dp"
+                android:text="@string/iq1ac"
+
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#F7030303"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="serif" />
+
+            <TextView
+                android:id="@+id/iq1aD"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="#2979FF"
+                android:onClick="iq1aD"
+                android:padding="5dp"
+                android:text="@string/iq1ad"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#F7030303"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="serif" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

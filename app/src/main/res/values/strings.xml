@@ -1,0 +1,126 @@
+<resources>
+    <string name="autor">" Вопросы на логику\n версия: 1.0\n Автор: Аlex Petrov\n Все проггаммы этого автора\n e-mail: abduholiq007@gmail.com\n\t\t Corpyright 2019"</string>
+    <string name="v1">"<font fgcolor="#000000">Вопрос 1</font>"</string>
+    <string name="v2">"<font fgcolor="#000000">Вопрос 2</font>"</string>
+    <string name="v3">"<font fgcolor="#000000">Вопрос 3</font>"</string>
+    <string name="v4">"<font fgcolor="#000000">Вопрос 4</font>"</string>
+    <string name="v5">"<font fgcolor="#000000">Вопрос 5</font>"</string>
+    <string name="v6">"<font fgcolor="#000000">Вопрос 6</font>"</string>
+    <string name="v7">"<font fgcolor="#000000">Вопрос 7</font>"</string>
+    <string name="v8">"<font fgcolor="#000000">Вопрос 8</font>"</string>
+    <string name="v9">"<font fgcolor="#000000">Вопрос 9</font>"</string>
+    <string name="v10">"<font fgcolor="#000000">Вопрос 10</font>"</string>
+    <string name="v11">"<font fgcolor="#000000">Вопрос 11</font>"</string>
+    <string name="v12">"<font fgcolor="#000000">Вопрос 12</font>"</string>
+    <string name="v13">"<font fgcolor="#000000">Вопрос 13</font>"</string>
+    <string name="v14">"<font fgcolor="#000000">Вопрос 14</font>"</string>
+    <string name="v15">"<font fgcolor="#000000">Вопрос 15</font>"</string>
+    <string name="v16">"<font fgcolor="#000000">Вопрос 16</font>"</string>
+    <string name="v17">"<font fgcolor="#000000">Вопрос 17</font>"</string>
+    <string name="v18">"<font fgcolor="#000000">Вопрос 18</font>"</string>
+    <string name="v19">"<font fgcolor="#000000">Вопрос 19</font>"</string>
+    <string name="v20">"<font fgcolor="#000000">Вопрос 20</font>"</string>
+    <string name="v21">"<font fgcolor="#000000">Вопрос 21</font>"</string>
+    <string name="v22">"<font fgcolor="#000000">Вопрос 22</font>"</string>
+    <string name="v23">"<font fgcolor="#000000">О программы</font>"</string>
+    <string name="result">"<font fgcolor="#000000">Резултать </font>"</string>
+    <string name="app_name">iqtest001</string>
+    <string name="iq1q">"\n<b>О! СOРОК МУХ!</b> Это анагарма двух слов, которые противоположны по значению.<b> Какие эти слова?</b>\n"</string>
+    <string name="iq1aa">"\n\nУХО С НОС"</string>
+    <string name="iq1ab">"\n\nО МУХ СОРОК"</string>
+    <string name="iq1ac">"\n\nСУХО МОКРО"</string>
+    <string name="iq1ad">"\n\nСУХО ДОЖДЬ"</string>
+
+    <string name="iq2q">"Сколько минут осталось до 12:00 если 16 минут назад было три раза больше минут, прошедших после 9:00?\n"</string>
+    <string name="iq2aa">"\n\n40"</string>
+    <string name="iq2ab">"\n\n41"</string>
+    <string name="iq2ac">"\n\n42"</string>
+    <string name="iq2ad">"\n\n39"</string>
+    <string name="iq3q">"Какая пара стрелок должна быть следующей?\n"</string>
+    <string name="iq5q">"Какое слово лишнее?\n <font fgcolor="#23540E"><b>Лисица, лукавство, сестричка, Красная Шапочка, воротник</b></font>\n"</string>
+    <string name="iq5aa">"\n\nЛисица"</string>
+    <string name="iq5ab">"\n\nлукавство"</string>
+    <string name="iq5ac">"\n\nсестричка"</string>
+    <string name="iq5ad">"\n\nКрасная Шапочка"</string>
+    <string name="iq5ae">"\n\nворотник"</string>
+    <string name="iq6q">"  <b>64521</b> относится к <b>41256</b> как <b>38297</b> к: \n"</string>
+    <string name="iq6aa">"\n\n89732"</string>
+    <string name="iq6ab">"\n\n29873"</string>
+    <string name="iq6ac">"\n\n92837"</string>
+    <string name="iq6ad">"\n\n87923"</string>
+    <string name="iq6ae">"\n\n87932"</string>
+    <string name="iq7q">"Укажите недостающий щит.\n"</string>
+    <string name="iq8q">"Сколько линий на рисунке?"</string>
+    <string name="iq8aa">"\n\n15"</string>
+    <string name="iq8ab">"\n\n16"</string>
+    <string name="iq8ac">"\n\n18"</string>
+    <string name="iq8ad">"\n\n11"</string>
+    <string name="iq8ae">"\n\n13"</string>
+    <string name="iq9q">"Вставте в скобки слово, которое закончит первое и будет началом второго.<b>Тюль(-----)ЕЛЬ</b>\n"</string>
+    <string name="iq9aa">"\n\nник"</string>
+    <string name="iq9ab">"\n\nучит"</string>
+    <string name="iq9ac">"\n\n(пробел) "</string>
+    <string name="iq9ad">"\n\n пан"</string>
+    <string name="iq9ae">"\n\nень"</string>
+    <string name="iq10q">"Какое число должно быть следующим в этой последовательности?\n <b>1, 3, 11, 47, ?</b>\n"</string>
+    <string name="iq10aa">"\n\n168"</string>
+    <string name="iq10ab">"\n\n234"</string>
+    <string name="iq10ac">"\n\n81"</string>
+    <string name="iq10ad">"\n\n144"</string>
+    <string name="iq10ae">"\n\n239"</string>
+    <string name="iq11q">Укажите недостающий сегмент.</string>
+    <string name="iq12q">"Какое число должно быть следующим в этой последовательности?\n <b>100, 97.25, 91.75, 83.5, ?</b>\n"</string>
+    <string name="iq12aa">"\n\n72,5"</string>
+    <string name="iq12ab">"\n\n74,75"</string>
+    <string name="iq12ac">"\n\n69,25"</string>
+    <string name="iq12ad">"\n\n71,5"</string>
+    <string name="iq12ae">"\n\n70"</string>
+    <string name="iq13q">"Какой фрагмент лишний?\n"</string>
+    <string name="iq13aa">"\nА"</string>
+    <string name="iq13ab">"\nБ"</string>
+    <string name="iq13ac">"\nВ"</string>
+    <string name="iq13ad">"\nГ"</string>
+    <string name="iq13ae">"\nД"</string>
+    <string name="iq13af">"\nЕ"</string>
+    <string name="iq13ag">"\nЖ"</string>
+    <string name="iq13ah">"\nЗ"</string>
+    <string name="iq13ai">"\nИ"</string>
+    <string name="iq14q">"Какая фигура должна быть следующей?\n"</string>
+    <string name="iq15q">"Какой квадрат нужно поставить вместо знака вопроса?\n"</string>
+    <string name="iq16q">"Анестизирующий -- это:\n"</string>
+    <string name="iq16aa">"\nодурманиваюший"</string>
+    <string name="iq16ab">"\nраздражающий"</string>
+    <string name="iq16ac">"\nблагоухающий"</string>
+    <string name="iq16ad">"\nобезболивающий"</string>
+    <string name="iq17q">"Найдите однословную анагарму для:  \n<b>КАК МАЧТА</b>\n"</string>
+    <string name="iq17aa">"\nКАК МАТЧ"</string>
+    <string name="iq17ab">"\nМАТЧ КАК"</string>
+    <string name="iq17ac">"\nКАМЧАТКА"</string>
+    <string name="iq17ad">"\nКАМАЗ"</string>
+    <string name="iq18q">"Каким числом следует заменить вопросительный знак?\n"</string>
+    <string name="iq18aa">"\n14"</string>
+    <string name="iq18ab">"\n13"</string>
+    <string name="iq18ac">"\n12"</string>
+    <string name="iq18ad">"\n15"</string>
+    <string name="iq18ae">"\n11"</string>
+    <string name="iq18af">"\n7"</string>
+    <string name="iq21q">"Из букв какошо круга нельзя составить слово?\n"</string>
+    <string name="iq21aa">"\n\nA"</string>
+    <string name="iq21ab">"\n\nБ"</string>
+    <string name="iq21ac">"\n\nВ"</string>
+    <string name="iq21ad">"\n\nГ"</string>
+
+    <string name="iq22q">"Каждый из девяти квадратов от <b>1A</b> до <b>3В</b> должен включать все линии и символы, которые есть в квадратах с той же буквой и цифрой. Например, квадрат <b>1В</b> должен включать все линии и символы квадратов <b>1</b> и <b>В</b>.\n <b>Один из квадратов-неправильный. Какой именно?</b>\n"</string>
+    <string name="iq22aa">"\n1A"</string>
+    <string name="iq22ab">"\n1Б"</string>
+    <string name="iq22ac">"\n1В"</string>
+    <string name="iq22ad">"\n2A"</string>
+    <string name="iq22ae">"\n2Б"</string>
+    <string name="iq22af">"\n2В"</string>
+    <string name="iq22ag">"\n3A"</string>
+    <string name="iq22ah">"\n3Б"</string>
+    <string name="iq22ai">"\n3В"</string>
+
+
+
+</resources>

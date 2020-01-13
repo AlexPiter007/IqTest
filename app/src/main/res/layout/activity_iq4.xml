@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C4B3FF03"
+    tools:context=".iq4">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFDFD"
+                app:srcCompat="@drawable/q2" />
+
+
+            <TableLayout
+                android:id="@+id/o"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+
+                >
+
+                <TableRow
+                    android:id="@+id/tableRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/iq4aA"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="#FFF"
+                        android:onClick="iq4aA"
+                        android:padding="5dp"
+                        android:src="@drawable/a2"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="#F7030303"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:fontFamily="serif" />
+
+                    <ImageView
+                        android:id="@+id/iq4aB"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="#FFF"
+                        android:onClick="iq4aB"
+                        android:padding="5dp"
+                        android:src="@drawable/b2"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="#F7030303"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:fontFamily="serif" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/iq4aC"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="#FFF"
+                        android:onClick="iq4aC"
+                        android:padding="5dp"
+                        android:src="@drawable/c2"
+
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="#F7030303"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:fontFamily="serif" />
+
+                    <ImageView
+                        android:id="@+id/iq4aD"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="#FFF"
+                        android:onClick="iq4aD"
+                        android:padding="5dp"
+                        android:src="@drawable/d2"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="#F7030303"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:fontFamily="serif" />
+                </TableRow>
+
+                <TableRow
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/iq4aE"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="#FFF"
+                        android:onClick="iq4aE"
+                        android:padding="5dp"
+                        android:src="@drawable/e2"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="#F7030303"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:fontFamily="serif" />
+
+                    <ImageView
+                        android:id="@+id/iq4aF"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="8dp"
+                        android:background="#FFF"
+                        android:onClick="iq4aF"
+                        android:padding="5dp"
+                        android:src="@drawable/f2"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="#F7030303"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:fontFamily="serif" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

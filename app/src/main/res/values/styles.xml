@@ -1,0 +1,13 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorA</item>
+
+    </style>
+
+    <style name="AppThemeA" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorA</item>
+    </style>
+
+</resources>

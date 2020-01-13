@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="70dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="8dp"
+                android:onClick="start"
+                android:padding="5dp"
+                app:srcCompat="@android:drawable/ic_media_play" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:onClick="start"
+                android:text="\nНачат тест"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="rateapp"
+                app:srcCompat="@android:drawable/star_big_off" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:onClick="rateapp"
+                android:text="\nОценить это"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="about"
+                android:padding="12dp"
+                app:srcCompat="@android:drawable/ic_dialog_info" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:onClick="about"
+                android:text="\nО программы"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="12dp"
+                android:onClick="exitt"
+                app:srcCompat="@android:drawable/ic_delete" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:onClick="exitt"
+                android:text="\nВыход"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
